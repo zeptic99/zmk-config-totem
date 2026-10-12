@@ -72,7 +72,7 @@
         };
 
         combo_comma {
-            timeout-ms = <15 16>; // OSM(LSFT) + A
+            timeout-ms = <50>; // OSM(LSFT) + A
             key-positions = <15 16>;
             bindings = <&kp COMMA>;
         };
@@ -197,7 +197,7 @@
         adj_layer {
             bindings = <
                 &kp F1       &kp LBKT     &kp RBKT     &bootloader      &kp F7                      &kp F10        &bootloader  &kp RPAR     &kp LPAR     &kp F4
-                &kp F2       &kp LBRC     &kp RCBR     &sys_reset       &kp F8                      &kp F11        &sys_reset   &kp DQT      &kp DQT      &kp F5
+                &kp F2       &kp LBRC     &kp RCBR     &sys_reset       &kp F8                      &kp F11        &sys_reset   &none        &none        &kp F5
         &none   &kp F3       &bt BT_CLR   &bt BT_SEL 0 &bt BT_SEL 1     &bt BT_SEL 2                &kp F12        &out OUT_TOG &kp GT       &kp LT       &kp F6        &none
                                           &none        &none            &trans                      &kp COLON      &kp SEMI     &none
             >;
